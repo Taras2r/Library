@@ -13,5 +13,4 @@ void lcd_init(void)
 	_delay_us(10);
 	PORTB &= ~(1 << 0);
 	_delay_us(10);
-
 }
